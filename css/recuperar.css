@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E4E4E4;
+}
+
+section {
+    background-color: #175A7C;
+    width: 478px;
+    height: 646px;
+    border-radius: 30px;
+    margin: 3% 35%;
+    color: #D3D5E7;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.botao-voltar {
+    position: absolute;
+    margin: 10px 0 0 -220px;
+}
+
+.logo {
+    width: 276px;
+    height: 158px;
+    margin-top: 70px;
+}
+
+.aviso-um {
+    margin: 40px 0 60px 0;
+    text-align: center;
+}
+
+span {
+    margin-bottom: 30px;
+    color: #fff;
+    text-decoration: underline #fff;
+    cursor: pointer;
+}
+
+.confirmar {
+    width: 199px;
+    height: 51px;
+    border: solid #D9D9D9;
+    border-radius: 10px;
+    background-color: #175A7C;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.confirmar:hover {
+    background-color: #D9D9D9;
+    color: #303030b1;
+}
+
+.aviso-dois {
+    opacity: 70%;
+}
+
+    
+dialog {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: #175A7C;
+    margin: auto;
+    color: #fff;
+
+    img {
+        position: absolute;
+        margin: -140px 0 0 174px;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 65px;
+    }
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .35);
+}

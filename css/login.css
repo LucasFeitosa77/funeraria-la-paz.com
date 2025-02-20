@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E4E4E4;
+}
+
+.containers {
+  display: flex;
+  width: 1250px;
+  height: 800px;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  margin: 130px 0 10px 0;
+}
+
+.painel-esquerdo {
+  background-color: #175A7C;
+  color: white;
+  padding: 40px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.painel-esquerdo .botao-voltar {
+  width: 70px;
+  height: 70px;
+  margin: -100px 0 0 -230px;
+  position: absolute;
+}
+
+.painel-esquerdo .logo {
+  width: 276px;
+  height: auto;
+  margin: -60px 0 20px 0;
+  padding-bottom: 70px;
+}
+
+.painel-esquerdo p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.painel-esquerdo form {
+  width: 90%;
+}
+
+.painel-esquerdo form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: none;
+  font-size: 21px;
+  background-color: #D9D9D9;
+}
+
+.painel-esquerdo form button {
+  width: 199px;
+  height: 51px;
+  padding: 10px;
+  background-color: #175A7C;
+  color: #fff;
+  border: solid #D9D9D9;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+  margin-left: 21%;
+}
+
+.painel-esquerdo form button:hover {
+  background-color: #D9D9D9;
+  color: #303030b1;
+}
+
+.painel-direito {
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.painel-direito h1 {
+  margin: 5px 0 100px 0;
+  font-size: 62px;
+  color: #175A7C;
+}
+
+.painel-direito form {
+  width: 100%;
+}
+
+.painel-direito form input {
+  width: 558px;
+  height: 75px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  background-color: #c5c2c2;
+}
+
+.painel-direito form a {
+  text-decoration: none;
+  color: #175A7C;
+  font-size: 20px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.painel-direito form button {
+  width: 227px;
+  height: 65px;
+  padding: 10px;
+  background-color: #175A7C;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 125px 0 0 190px;
+}
+
+.painel-direito form button:hover {
+  background-color: #00518a;
+}
